@@ -1,0 +1,38 @@
+.upper_tool_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(35, 35, 35);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    align-items: center;
+    z-index: 100;
+}
+.upper_tool_bar img {
+    width: 200px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.menu_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    margin-right: 100px;
+    
+}
+.menu {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 2px;
+    transition: 0.15s;
+}
+.menu:hover {
+    background-color: rgb(54, 54, 54);
+}

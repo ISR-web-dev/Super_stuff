@@ -1,0 +1,69 @@
+footer {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    background-color: rgb(35, 35, 35);
+    height: 500px;
+    padding: 0 40px;
+    margin-top: 200px;
+    
+}
+.logo_fotter {
+    width: 300px;
+    margin-top: 10px;
+}
+.social_handle_container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(171, 171, 171);
+}
+.social_handle {
+    width: 30px;
+    margin-left: 20px;
+}
+.promotion {
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+}
+.make_a_message {
+    width: 400px;
+}
+.input_message, .input_message_mess {
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    width: 300px;
+    background-color: rgb(22, 22, 22);
+    border: 0;
+    color: white;
+}
+.mess_title {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.input_message_mess {
+    max-width: 300px;
+    max-height: 200px;
+    display: block;
+    color: white;
+}
+.send_button {
+    background-color: rgb(255, 37, 37);
+    border: 0;
+    font-size: 20px;
+    padding: 6px 12px;
+    margin-top: 10px;
+    border-radius: 6px;
+    font-weight: 300;
+}
+.send_button:hover {
+    background-color: rgb(255, 66, 66);
+}
+.send_button:active {
+    background-color: rgb(255, 109, 109);
+}
